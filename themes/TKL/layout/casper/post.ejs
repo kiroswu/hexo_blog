@@ -1,0 +1,27 @@
+<% permalink = config.url + config.root + post.path %>
+<section id="intro">
+    <div class="container">	
+        <div class="row">
+		<!-- Table of Contents -->
+			<% if (post.toc){ %>
+			<div id="toc" class="col-md-3">
+			<strong class="toc-title">CONTENTS</strong>
+			<%- toc(post.content,{list_number: false}) %>
+			</div>
+			<% } %>
+            <div class="col-md-9 col-md-offset-3">
+    			<%- partial('post/meta') %>
+                <h1><%- post.title %></h1> 
+				<span class="post-count">Total : <%= wordcount(post.content) %>words |</span>
+				<span class="post-count">Read spends : <%= min2read(post.content) %>mins</span>
+				<hr class="nogutter">	
+				<%- post.content %>
+				<div class="clearfix"></div>
+				<hr class="nogutter">
+				<%- partial('post/navigation') %>
+				<div class="duoshuo"><%- partial('post/duoshuo') %></div>
+			</div>			
+			<div id="updown" class="col-md-2"><span class="up"></span><span class="down"></span></div>
+		</div>
+    </div>
+</section>

@@ -3157,7 +3157,7 @@ footer .footer-top{
 }
 footer .copy {
 	float: left;
-	margin-top: 5px;
+	margin-bottom: 5px;
 }
 footer .copy p {
 	font-size: 12px;
@@ -3165,7 +3165,8 @@ footer .copy p {
 }
 footer .social {
 	float: right;
-	margin-top: 5px;
+	align: bottom;
+	margin-bottom: 5px;
 }
 footer .social ul {
 	margin: 0;
@@ -3382,6 +3383,7 @@ footer .footer_bottom {
  -moz-border-radius: 0 0 1px 1px; 
  padding: 12px;
  -moz-box-shadow: 0 1px 2px #000;
+ z-index:10;
 }
 
 #navigation a:before ,.opening-statement a:before, .toc-text:before{

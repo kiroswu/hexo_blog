@@ -33,17 +33,17 @@ weibo: http://weibo.com/u/2363324471
 #about  timeline
 timeline:
 - num: 1
-  word: 2014/06/12-Start
+  word: 2009/09/01-步入大学第一天，软件工程专业，拥有了第一台电脑，学会了开机。
 - num: 2
-  word: 2014/11/29-XXX
+  word: 2009/09/24-学会了C，第一个Hello World。
 - num: 3
-  word: 2015/02/18-DDD
+  word: 2013/01/04-人生第一份工作，上海魔都。
 - num: 4
   word: More
 
 #Links
 links:
-- name: Kieran
-  link: http://go.kieran.top/
+- name: Kiros
+  link: http://kirosblog.cn/
 - name: Name
   link: http://domain.com/

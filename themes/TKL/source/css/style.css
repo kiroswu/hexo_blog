@@ -3085,7 +3085,7 @@ button.send{
 * Global footer, (all pages)
 ******************************************************* */
 footer {
-	padding:5% 0 0;
+	padding:10px 0 0;
 	background:#151515;
 	z-index: 9;
 	position: relative;
@@ -3158,6 +3158,9 @@ footer .footer-top{
 footer .copy {
 	float: left;
 	margin-bottom: 5px;
+	position: absolute;
+	bottom: 10px;
+	left:20%;
 }
 footer .copy p {
 	font-size: 12px;

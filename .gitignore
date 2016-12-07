@@ -3,4 +3,5 @@
 /.deploy_git
 /.npmignore
 /scaffolds
-
+/db.json
+/package.json

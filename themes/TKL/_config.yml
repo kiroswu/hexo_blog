@@ -33,13 +33,15 @@ weibo: http://weibo.com/u/2363324471
 #about  timeline
 timeline:
 - num: 1
-  word: 2009/09/01-步入大学第一天，软件工程专业，拥有了第一台电脑，学会了开机。
+  word: 2009/09/01-步入大学第一天，软件工程专业，拥有了第一台笔记本电脑，学会了开机。
 - num: 2
   word: 2009/09/24-学会了C，第一个Hello World。
 - num: 3
-  word: 2013/01/04-人生第一份工作，上海魔都。
+  word: 2013/01/04-人生第一份工作，java程序员，上海魔都。
 - num: 4
-  word: More
+  word: 2013/07/01-毕业于安徽工业大学，软件工程专业。正式成为社会人。
+- num: 5
+  word: To be continued...
 
 #Links
 links:

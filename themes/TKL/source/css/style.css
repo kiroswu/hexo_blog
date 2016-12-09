@@ -3389,6 +3389,12 @@ footer .footer_bottom {
  z-index:10;
 }
 
+.toc-text, .search-result-list li{
+	position:relative;
+	padding: 0 0 5px 0;
+}
+
+
 #navigation a:before ,.opening-statement a:before, .toc-text:before{
   content: "";
   position: absolute;

@@ -4,9 +4,12 @@
         <div class="row">
 		<!-- Table of Contents -->
 			<% if (post.toc){ %>
-			<div id="toc" class="col-md-3">
+			<div id="toc">
+			<img class="toc-bg" src="/img/toc_bg_h.png"></img><br>
+			<div class="toc-content col-md-3">
 			<strong class="toc-title">CONTENTS</strong>
 			<%- toc(post.content,{list_number: false}) %>
+			</div>
 			</div>
 			<% } %>
             <div class="col-md-9 col-md-offset-3">
